@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './components/images/5845e687fb0b0755fa99d7ee.png';
+import './components/css/App.css';
 
+//  ==== Componentes ==== 
 /*Header*/
-import Header from "./Header"
+import Header from "./components/js/Header"
+/*Footer*/
+import Footer from "./components/js/Footer"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Header/>
 
+        
         <body>
-          <p>
-            asdasdsadasdasdasdsa
-          </p>
         </body>
 
         <header className="App-header">
@@ -31,6 +33,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <Footer/>
 
       </div>
     );

@@ -1,4 +1,7 @@
 import React from 'react';
+
+import '../css/Header.css' ;
+
 import {
   Collapse,
   Navbar,
@@ -28,9 +31,9 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <div className="navbar"> 
+        <Navbar color="white" light expand="md">
+          <NavbarBrand href="/">UX - Examen</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
