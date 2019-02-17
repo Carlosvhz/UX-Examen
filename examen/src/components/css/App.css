@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Verdana;
 }
 
 .App-logo {
@@ -9,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #b72d6a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +24,25 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*======== Header =======*/
+.fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+}
+
+/*======== Body ========*/
+.body{
+  width: 100vw;
+  background-color:red;
+  border:0;
+}
+
+/*======== Row =========*/
+  /* == Column == */
+.column{
+  padding: 0 !important;
 }

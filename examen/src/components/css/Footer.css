@@ -1,3 +1,17 @@
-.footer_div1{
-    background: #ffffff;
+.Footer{
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    background: #767777;
+}
+
+.mdbfooter-c1{
+    background: #767777;
+    text-align: center;
+}
+
+.mdbfooter-c2{
+    background: #525454;
+    text-align: center;
 }

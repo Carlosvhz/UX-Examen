@@ -31,21 +31,21 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div className="navbar"> 
+      <div className="container-fluid"> 
         <Navbar color="white" light expand="md">
-          <NavbarBrand href="/">UX - Examen</NavbarBrand>
+          
+        <a class="navbar-brand" rel="home" href="#" title="">
+          <img style="max-width:100px; margin-top: -7px;" src="../image/cms.png"/>
+        </a>
+
           <NavbarToggler onClick={this.toggle} />
+
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-              </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+
+            <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Productos
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
@@ -60,8 +60,18 @@ export default class Header extends React.Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+
+              <NavItem>
+                <NavLink href="/Soporte/">Soporte</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/Comunidad/">Comunidad</NavLink>
+              </NavItem>
+              
             </Nav>
           </Collapse>
+
         </Navbar>
       </div>
     );

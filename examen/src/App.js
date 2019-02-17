@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './components/images/5845e687fb0b0755fa99d7ee.png';
 import './components/css/App.css';
 
 //  ==== Componentes ==== 
@@ -7,38 +6,56 @@ import './components/css/App.css';
 import Header from "./components/js/Header"
 /*Footer*/
 import Footer from "./components/js/Footer"
+/*Card*/ 
+import BodyCard from "./components/js/BodyCard"
+
+import{
+  MDBCol,
+  MDBRow
+} from 'mdbreact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         
-        <Header/>
+        <div className="fixed">
+          <Header/>
+        </div>
 
+
+        <div className="container body">
+          <MDBRow>
+            <MDBCol className="column">
+              <BodyCard/>
+            </MDBCol>
+
+            <MDBCol className="column">
+              <BodyCard/>
+            </MDBCol >
+          </MDBRow>
+
+
+          <MDBRow>
+            <MDBCol className = "column">
+              <BodyCard/>
+            </MDBCol>
+          </MDBRow>
+        </div>
         
-        <body>
-        </body>
 
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            David se la come toda
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-
-        <Footer/>
-
+        <div>
+          <Footer/>
+        </div>
+        
       </div>
     );
   }
 }
 
 export default App;
+/* 
+<div className = "footer">
+          <Footer/>
+        </div>
+*/
