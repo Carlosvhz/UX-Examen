@@ -34,9 +34,7 @@ export default class Header extends React.Component {
       <div className="container-fluid"> 
         <Navbar color="white" light expand="md">
           
-        <a class="navbar-brand" rel="home" href="#" title="">
-          <img style="max-width:100px; margin-top: -7px;" src="../image/cms.png"/>
-        </a>
+          <NavbarBrand href="/">UX - Examen</NavbarBrand>
 
           <NavbarToggler onClick={this.toggle} />
 
@@ -49,10 +47,19 @@ export default class Header extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                    Motherboards
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                    GPU's
+                  </DropdownItem>
+                  <DropdownItem>
+                    CPU's
+                  </DropdownItem>
+                  <DropdownItem>
+                    RAM
+                  </DropdownItem>
+                  <DropdownItem>
+                    ROM Devices
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
@@ -62,11 +69,11 @@ export default class Header extends React.Component {
               </UncontrolledDropdown>
 
               <NavItem>
-                <NavLink href="/Soporte/">Soporte</NavLink>
+                <NavLink href="/Soporte/">Support</NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/Comunidad/">Comunidad</NavLink>
+                <NavLink href="/Comunidad/">Comunity</NavLink>
               </NavItem>
               
             </Nav>

@@ -1,54 +1,29 @@
 import React, { Component } from 'react';
 import './components/css/App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //  ==== Componentes ==== 
 /*Header*/
 import Header from "./components/js/Header"
-/*Footer*/
-import Footer from "./components/js/Footer"
-/*Card*/ 
-import BodyCard from "./components/js/BodyCard"
 
-import{
-  MDBCol,
-  MDBRow
-} from 'mdbreact';
+/* ===== Paginas ===== */ 
+import HomePage from "./components/Pages/HomePage.js";
+import ProductPage from "./components/Pages/Products.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        
-        <div className="fixed">
-          <Header/>
-        </div>
-
-
-        <div className="container body">
-          <MDBRow>
-            <MDBCol className="column">
-              <BodyCard/>
-            </MDBCol>
-
-            <MDBCol className="column">
-              <BodyCard/>
-            </MDBCol >
-          </MDBRow>
-
-
-          <MDBRow>
-            <MDBCol className = "column">
-              <BodyCard/>
-            </MDBCol>
-          </MDBRow>
-        </div>
-        
-
+      <BrowserRouter>
         <div>
-          <Footer/>
+          <Header />
+
+          <Switch>
+            <Route path="/" component={HomePage} exact />
+            <Route path="/Products" component={ProductPage} exact/>
+          </Switch>
+
         </div>
-        
-      </div>
+      </BrowserRouter>
     );
   }
 }
