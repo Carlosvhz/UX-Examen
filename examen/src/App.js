@@ -9,6 +9,7 @@ import Header from "./components/js/Header"
 /* ===== Paginas ===== */ 
 import HomePage from "./components/Pages/HomePage.js";
 import ProductPage from "./components/Pages/Products.js";
+import ProductCarPage from "./components/Pages/ProductCar.js";
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
 
           <Switch>
             <Route path="/" component={HomePage} exact />
-            <Route path="/Products" component={ProductPage} exact/>
+            <Route path="/products" component={ProductPage} exact/>
+            <Route path="/productscar" component={ProductCarPage} exact/>
           </Switch>
 
         </div>

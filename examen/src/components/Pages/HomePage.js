@@ -26,7 +26,7 @@ class HomePage extends Component {
                 <div className="container body">
                 <MDBRow>
                     <MDBCol className="column">
-                    <BodyCard/>
+                    <BodyCard src="../images/AMDW1.jpg"/>
                     </MDBCol>
 
                     <MDBCol className="column">

@@ -1,0 +1,122 @@
+{
+    "products": [
+        { 
+            "id": 1,
+            "type": "Motherboard",
+            "name": "Asus maximus XI Z390",
+            "image": "Asus_maximus_XI_Z390.jpg",
+            "price": 19.99
+        },{
+            "id": 2,
+            "type": "Motherboard",
+            "name": "Asus Prime X299 Deluxe II",
+            "image": "Asus_Prime_X299_Deluxe_II.jpg",
+            "price": 19.99
+        },{
+            "id": 3,
+            "type": "Motherboard",
+            "name": "Asus TUF X299 Mark 2",
+            "image": "Asus_TUF_X299_Mark_2.jpg",
+            "price": 19.99
+          },{
+            "id": 4,
+            "type": "Motherboard",
+            "name": "Asus Rampage V Extreme",
+            "image": "Asus_Rampage_V_Extreme.jpg",
+            "price": 19.99
+          },{
+            "id": 5,
+            "type": "Motherboard",
+            "name": "Asus ROG Zenith Extreme Alpha X399",
+            "image": "Asus_ROG_Zenith_Extreme_Alpha_X399.jpg",
+            "price": 19.99
+          },
+          
+
+
+          
+          
+          {
+            "id": 6,
+            "type": "CPU",
+            "name": "AMD Ryzen 2700x",
+            "image": "./image/CPU's/AMD_Ryzen_2700x.jpg",
+            "price": 99.99
+          },{
+            "id": 7,
+            "type": "CPU",
+            "name": "AMD Ryzen Threadripper 1900x",
+            "image": "./image/CPU's/AMD_Ryzen_Threadripper_1900x.jpg",
+            "price": 99.99
+          },{
+            "id": 8,
+            "type": "CPU",
+            "name": "Intel Core i8 8600k",
+            "image": "./image/CPU's/Intel_Core_i8_8600k.jpg",
+            "price": 99.99
+          },{
+            "id": 9,
+            "type": "CPU",
+            "name": "Intel Core i9 9900k",
+            "image": "./image/CPU's/Intel_Core_i9_9900k.jpg",
+            "price": 99.99
+          },
+          
+          
+          
+
+
+          
+          
+          {
+            "id": 10,
+            "type": "GPU",
+            "name": "Gigabyte Nvidia GeForce RTX 2080 TI",
+            "image": "./image/GPU's/Gigabyte_Nvidia_GeForce_RTX_2080_TI.jpg",
+            "price": 99.99
+          },{
+            "id": 11,
+            "type": "GPU",
+            "name":"MSI Nvidia GeForce GTX 1060 Armor OCV1" ,
+            "image": "./image/GPU's/MSI_Nvidia_GeForce_GTX_1060_Armor_OCV1.jpg",
+            "price": 99.99
+          },{
+            "id": 12,
+            "type": "GPU",
+            "name": "Republic of Gamers Nvidia GTX 1080 Strix Gaming",
+            "image": "./image/GPU's/Republic_of_Gamers_Nvidia_GTX_1080_Strix_Gaming.jpg",
+            "price": 99.99
+          }
+          
+          
+          
+          
+          
+          
+          ,{
+            "id": 13,
+            "type":"Case" ,
+            "name": "Antec Twelve Hundred V3",
+            "image": "./image/Cases/Antec_Twelve_Hundred_V3.jpg",
+            "price": 99.9
+          },{
+            "id": 14,
+            "type":"Case" ,
+            "name": "Inwin X Frame 2.0",
+            "image": "./image/Cases/Inwin_X_Frame_2.jpg",
+            "price": 99.9
+          },{
+            "id": 15,
+            "type":"Case" ,
+            "name": "Phanteks Enthoo Elite",
+            "image": "./image/Cases/Phanteks_Enthoo_Elite.jpg",
+            "price": 99.9
+          },{
+            "id": 16,
+            "type":"Case" ,
+            "name": "Thermaltake Level 20 XT",
+            "image": "./image/Cases/Thermaltake_Level_20_XT.jpg",
+            "price": 99.9
+          }
+    ]
+}

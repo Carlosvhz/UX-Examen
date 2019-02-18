@@ -1,19 +1,36 @@
-import React from 'react';
-//  ==== Componentes ==== 
-/*Header*/
-import Header from "../js/Header.js"
+import React , { Component } from 'react';
+//  ==== Components ==== 
 /*Footer*/
 import Footer from "../js/Footer.js"
+import ProductCard from "../js/ProductCard.js"
 
-const Products = () => {
-    return (
-        <div>
-                <h1>
-                    Products Page
-                </h1>
-            <Footer/>
-        </div>
-    );
-};
+import '../css/ProductCard.css';
+
+import{
+    MDBRow,
+    MDBCol
+} from 'mdbreact';
+
+class Products extends Component{
+    constructor(props){
+        super(props);
+        this.state = require("../../AllProducts.json");
+    }
+    render(){
+        return (
+            <div  class="container-fluid div-card">
+                {this.state.products.map(item => {
+                  return (
+                    <MDBCol container-fluid>
+                        <ProductCard product={item}/>
+                    </MDBCol>
+                  );
+                })}
+                <Footer/>
+            </div>
+        );
+    }
+}
+
 
 export default Products;

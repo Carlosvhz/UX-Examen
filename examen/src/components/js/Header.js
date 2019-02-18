@@ -34,48 +34,23 @@ export default class Header extends React.Component {
       <div className="container-fluid"> 
         <Navbar color="white" light expand="md">
           
-          <NavbarBrand href="/">UX - Examen</NavbarBrand>
+          <NavbarBrand href="/">
+            <img className="brand-logo" src={require("../images/Logo.png")} alt="Logo" />
+          </NavbarBrand>
 
           <NavbarToggler onClick={this.toggle} />
 
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-
-            <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Productos
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Motherboards
-                  </DropdownItem>
-                  <DropdownItem>
-                    GPU's
-                  </DropdownItem>
-                  <DropdownItem>
-                    CPU's
-                  </DropdownItem>
-                  <DropdownItem>
-                    RAM
-                  </DropdownItem>
-                  <DropdownItem>
-                    ROM Devices
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-
+              
               <NavItem>
-                <NavLink href="/Soporte/">Support</NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink href="/Comunidad/">Comunity</NavLink>
+                <NavLink href="/products/">Store</NavLink>
               </NavItem>
               
+              <NavItem>
+                <NavLink href="/productscar/">My Car</NavLink>
+              </NavItem>
+
             </Nav>
           </Collapse>
 

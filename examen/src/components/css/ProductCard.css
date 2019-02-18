@@ -1,0 +1,11 @@
+.card-img{
+    align-content: center !important;
+    width: auto;
+    height: auto;
+}
+
+.card-img-p{
+    align-content: center !important;
+    width: 340px;
+    height: 220px;
+}
