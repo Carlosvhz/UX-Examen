@@ -1,5 +1,6 @@
 {
   "projects": {
-    "hardware": "hardware-3d"
+    "hardware": "hardware-3d",
+    "default": "hardware-3d"
   }
 }
