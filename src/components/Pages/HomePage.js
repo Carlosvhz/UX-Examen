@@ -10,6 +10,7 @@ import BodyCard from "../js/BodyCard.js"
 /*Carousel*/ 
 import Carousel from "../js/Carousel.js"
 
+
 import{
     MDBCol,
     MDBRow
@@ -24,8 +25,10 @@ class HomePage extends Component {
                 <Header/>
                 </div>
 
-                <Carousel/>
-        
+                <div container>
+                    <Carousel/>
+                </div>
+
                 <div container>
                 <Footer/>
                 </div>

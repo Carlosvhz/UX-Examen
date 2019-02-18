@@ -46,38 +46,38 @@
             "id": 7,
             "type": "CPU",
             "name": "AMD Ryzen Threadripper 1900x",
-            "image": "./image/CPU's/AMD_Ryzen_Threadripper_1900x.jpg",
+            "image": "https://www.overclockers.co.uk/media/image/thumbnail/CP3A9AM_171814_800x800.jpg",
             "price": 99.99
           },{
             "id": 8,
             "type": "CPU",
             "name": "Intel Core i8 8600k",
-            "image": "./image/CPU's/Intel_Core_i8_8600k.jpg",
+            "image": "http://static1.caseking.de/media/image/thumbnail/hpit-437_hpit_437_01_800x800.jpg",
             "price": 99.99
           },{
             "id": 9,
             "type": "CPU",
             "name": "Intel Core i9 9900k",
-            "image": "./image/CPU's/Intel_Core_i9_9900k.jpg",
+            "image": "https://www.scan.co.uk/images/products/2979483-a.jpg",
             "price": 99.99
           },
           {
             "id": 10,
             "type": "GPU",
             "name": "Gigabyte Nvidia GeForce RTX 2080 TI",
-            "image": "./image/GPU's/Gigabyte_Nvidia_GeForce_RTX_2080_TI.jpg",
+            "image": "https://static.gigabyte.com/Product/3/6707/2018082011230996_big.png",
             "price": 99.99
           },{
             "id": 11,
             "type": "GPU",
             "name":"MSI Nvidia GeForce GTX 1060 Armor OCV1" ,
-            "image": "./image/GPU's/MSI_Nvidia_GeForce_GTX_1060_Armor_OCV1.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81p1IBTIONL._SX425_.jpg",
             "price": 99.99
           },{
             "id": 12,
             "type": "GPU",
             "name": "Republic of Gamers Nvidia GTX 1080 Strix Gaming",
-            "image": "./image/GPU's/Republic_of_Gamers_Nvidia_GTX_1080_Strix_Gaming.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/617iD8v1WjL._SY355_.jpg",
             "price": 99.99
           }
           
@@ -90,25 +90,25 @@
             "id": 13,
             "type":"Case" ,
             "name": "Antec Twelve Hundred V3",
-            "image": "./image/Cases/Antec_Twelve_Hundred_V3.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41DNlFBJnYL._SX355_.jpg",
             "price": 99.9
           },{
             "id": 14,
             "type":"Case" ,
             "name": "Inwin X Frame 2.0",
-            "image": "./image/Cases/Inwin_X_Frame_2.jpg",
+            "image": "https://www.guru3d.com/index.php?ct=news&action=file&id=17944",
             "price": 99.9
           },{
             "id": 15,
             "type":"Case" ,
             "name": "Phanteks Enthoo Elite",
-            "image": "./image/Cases/Phanteks_Enthoo_Elite.jpg",
+            "image": "http://www.phanteks.com/images/product/Enthoo-Elite/Black/Elite-1z.jpg",
             "price": 99.9
           },{
             "id": 16,
             "type":"Case" ,
             "name": "Thermaltake Level 20 XT",
-            "image": "./image/Cases/Thermaltake_Level_20_XT.jpg",
+            "image": "https://thermaltake.azureedge.net/db/products/case/level20xt/main.jpg",
             "price": 99.9
           }
     ]
