@@ -52,9 +52,9 @@ export default class Footer extends React.Component{
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a className="ins-ic">
-                      <i className="fab fa-instagram btn-sm btn-tw mx-1">
-                        <img className="brand-logo" src={require("../images/instagram.png")} alt="Logo" />
+                    <a className="btn-floating btn-sm btn-tw mx-1">
+                      <i className="fab fa-google-plus btn-sm btn-tw mx-1">
+                        <img className="brand-logo" src={require("../images/google.png")} alt="Logo" />
                       </i>
                     </a>
                   </li>

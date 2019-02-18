@@ -33,6 +33,7 @@ export default class Header extends React.Component {
           
           <NavbarBrand href="/">
             <img className="brand-logo" src={require("../images/Logo.png")} alt="Logo" />
+            <a className="logo-text"> Hardware3D</a>
           </NavbarBrand>
 
           <NavbarToggler onClick={this.toggle} />
