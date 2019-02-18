@@ -10,25 +10,25 @@
             "id": 2,
             "type": "Motherboard",
             "name": "Asus Prime X299 Deluxe II",
-            "image": "Asus_Prime_X299_Deluxe_II.jpg",
+            "image": "https://www.asus.com/media/global/products/cY6aMPvcNMgQ6RtY/P_setting_fff_1_90_end_500.png",
             "price": 19.99
         },{
             "id": 3,
             "type": "Motherboard",
             "name": "Asus TUF X299 Mark 2",
-            "image": "Asus_TUF_X299_Mark_2.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81ZLejdQ17L._SX425_.jpg",
             "price": 19.99
           },{
             "id": 4,
             "type": "Motherboard",
             "name": "Asus Rampage V Extreme",
-            "image": "Asus_Rampage_V_Extreme.jpg",
+            "image": "https://www.asus.com/media/global/products/SNYTZvOdMa6xGWYL/P_setting_fff_1_90_end_500.png",
             "price": 19.99
           },{
             "id": 5,
             "type": "Motherboard",
             "name": "Asus ROG Zenith Extreme Alpha X399",
-            "image": "Asus_ROG_Zenith_Extreme_Alpha_X399.jpg",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81Z-ciy0URL._SY355_.jpg",
             "price": 19.99
           },
           
@@ -40,7 +40,7 @@
             "id": 6,
             "type": "CPU",
             "name": "AMD Ryzen 2700x",
-            "image": "./image/CPU's/AMD_Ryzen_2700x.jpg",
+            "image": "https://c.76.my/Malaysia/amd-ryzen-7-2700x-8-core-3-7-ghz-4-3-ghz-max-boost-socket-am4-105w-r3xtech-1804-24-r3xtech@4.jpg",
             "price": 99.99
           },{
             "id": 7,

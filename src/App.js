@@ -9,7 +9,7 @@ import Header from "./components/js/Header"
 /* ===== Paginas ===== */ 
 import HomePage from "./components/Pages/HomePage.js";
 import ProductPage from "./components/Pages/Products.js";
-import ProductCarPage from "./components/Pages/ProductCar.js";
+import ProductCartPage from "./components/Pages/ProductCart.js";
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/products" component={ProductPage} exact/>
-            <Route path="/productscar" component={ProductCarPage} exact/>
+            <Route path="/productscar" component={ProductCartPage} exact/>
           </Switch>
 
         </div>

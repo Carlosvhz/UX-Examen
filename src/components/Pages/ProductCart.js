@@ -4,7 +4,7 @@ import React from 'react';
 /*Footer*/
 import Footer from "../js/Footer.js"
 
-const ProductCar = () => {
+const ProductCart = () => {
     return (
         <div>
             <h1>
@@ -15,4 +15,4 @@ const ProductCar = () => {
     );
 };
 
-export default ProductCar;
+export default ProductCart;

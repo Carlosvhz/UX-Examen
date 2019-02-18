@@ -21,7 +21,7 @@ class Products extends Component{
             <div  class="container-fluid div-card">
                 {this.state.products.map(item => {
                   return (
-                    <MDBCol container-fluid sm = "8">
+                    <MDBCol container-fluid sm = "4">
                         <ProductCard product={item}/>
                     </MDBCol>
                   );

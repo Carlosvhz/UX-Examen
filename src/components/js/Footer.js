@@ -16,56 +16,14 @@ export default class Footer extends React.Component{
                 <MDBRow>
                   <MDBCol md="6">
                     <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-                      Footer Content
+                      About
                     </h5>
                     <p>
-                      Here you can use rows and columns here to organize your footer
-                      content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                      elit.
+                      La página ha sido creada con propositos educactivos.
                     </p>
                   </MDBCol>
                   <hr className="clearfix w-100 d-md-none" />
-                  <MDBCol md="2">
-                    <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-                      Links
-                    </h5>
-                    <ul className="list-unstyled">
-                      <li>
-                        <a href="#!">Link 1</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 2</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 3</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 4</a>
-                      </li>
-                    </ul>
-                  </MDBCol>
-                  <hr className="clearfix w-100 d-md-none" />
-                  <MDBCol md="2">
-                    <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-                      Links
-                    </h5>
-                    <ul className="list-unstyled">
-                      <li>
-                        <a href="#!">Link 1</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 2</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 3</a>
-                      </li>
-                      <li>
-                        <a href="#!">Link 4</a>
-                      </li>
-                    </ul>
-                  </MDBCol>
-                  <hr className="clearfix w-100 d-md-none" />
-                  <MDBCol md="2">
+                  <MDBCol md="6">
                     <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
                       Links
                     </h5>
@@ -87,18 +45,6 @@ export default class Footer extends React.Component{
                 </MDBRow>
               </MDBContainer>
               <hr />
-              <div className="text-center py-3">
-                <ul className="list-unstyled list-inline mb-0">
-                  <li className="list-inline-item">
-                    <h5 className="mb-1">Register for free</h5>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#!" className="btn btn-danger btn-rounded">
-                      Sign up!
-                    </a>
-                  </li>
-                </ul>
-              </div>
               <hr />
               <div className="text-center">
                 <ul className="list-unstyled list-inline">
@@ -131,7 +77,7 @@ export default class Footer extends React.Component{
               </div>
               <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
-                  &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+                  &copy; {new Date().getFullYear()} Copyright: <a href="./"> Hardware-3D.com</a>
                 </MDBContainer>
               </div>
             </MDBFooter>
