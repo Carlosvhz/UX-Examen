@@ -22,7 +22,7 @@ export default class BodyCard extends Component {
               />
               
                 <CardImgOverlay>
-                  <CardTitle><h2>The best computers</h2></CardTitle>
+                  <CardTitle><h2></h2></CardTitle>
                 </CardImgOverlay>
 
             </Card>
