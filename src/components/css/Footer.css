@@ -1,9 +1,14 @@
-.Footer{
+.page-footer{
     margin: 0;
     padding: 0;
 
     color: white;
     background: #767777;
+}
+
+.brand-logoo{
+    width: 75px;
+    height: auto;
 }
 
 .mdbfooter-c1{
