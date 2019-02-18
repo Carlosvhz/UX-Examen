@@ -14,6 +14,7 @@ class ProductCard extends Component {
         return (
             <div>
                 <Card> 
+                    {console.log(this.props.product)}
                     <CardImg 
                     className='card-img-p' 
                     top width="100%" 

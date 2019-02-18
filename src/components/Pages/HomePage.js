@@ -7,7 +7,8 @@ import Header from "../js/Header.js"
 import Footer from "../js/Footer.js"
 /*Card*/ 
 import BodyCard from "../js/BodyCard.js"
-
+/*Carousel*/ 
+import Carousel from "../js/Carousel.js"
 
 import{
     MDBCol,
@@ -23,47 +24,9 @@ class HomePage extends Component {
                 <Header/>
                 </div>
 
-                <div className="container body">
-                <MDBRow>
-                    <MDBCol className="column">
-                    <BodyCard src="../images/AMDW1.jpg"/>
-                    </MDBCol>
-
-                    <MDBCol className="column">
-                    <BodyCard/>
-                    </MDBCol >
-                </MDBRow>
-
-
-                <MDBRow>
-                    <MDBCol className = "column">
-                    <BodyCard/>
-                    </MDBCol>
-                </MDBRow>
-
-                <MDBRow>
-                    <MDBCol className="column">
-                    <BodyCard/>
-                    </MDBCol>
-
-                    <MDBCol className="column">
-                    <BodyCard/>
-                    </MDBCol >
-
-                    <MDBCol className="column">
-                    <BodyCard/>
-                    </MDBCol >
-                </MDBRow>
-
-                <MDBRow>
-                    <MDBCol className = "column">
-                    <BodyCard/>
-                    </MDBCol>
-                </MDBRow>
-                </div>
+                <Carousel/>
         
-
-                <div>
+                <div container>
                 <Footer/>
                 </div>
         

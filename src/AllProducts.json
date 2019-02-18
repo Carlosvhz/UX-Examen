@@ -4,7 +4,7 @@
             "id": 1,
             "type": "Motherboard",
             "name": "Asus maximus XI Z390",
-            "image": "Asus_maximus_XI_Z390.jpg",
+            "image": "https://www.scan.co.uk/images/products/xlarge/2987672-xl-a.jpg",
             "price": 19.99
         },{
             "id": 2,
@@ -61,13 +61,6 @@
             "image": "./image/CPU's/Intel_Core_i9_9900k.jpg",
             "price": 99.99
           },
-          
-          
-          
-
-
-          
-          
           {
             "id": 10,
             "type": "GPU",
