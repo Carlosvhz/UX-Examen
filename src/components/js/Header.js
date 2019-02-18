@@ -46,7 +46,16 @@ export default class Header extends React.Component {
               </NavItem>
               
               <NavItem>
-                <NavLink href="/productscar/">My Car</NavLink>
+                <NavLink href="/productscar/">My Cart   </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <div class="topnav">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search"/>
+                  <button type="submit">Submit</button>
+                </form>
+                </div> 
               </NavItem>
 
             </Nav>

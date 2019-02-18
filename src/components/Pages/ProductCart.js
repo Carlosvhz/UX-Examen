@@ -8,7 +8,7 @@ const ProductCart = () => {
     return (
         <div>
             <h1>
-                Carrito Page
+                Carrito Page :3
             </h1>
             <Footer/>
         </div>

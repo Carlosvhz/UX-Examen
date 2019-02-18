@@ -23,7 +23,7 @@ class ProductCard extends Component {
                     />
                     <CardBody>
                         <CardTitle>{this.props.product.name}</CardTitle>
-                        <CardSubtitle>{this.props.product.type}</CardSubtitle>
+                        <CardSubtitle>{this.props.product.price}</CardSubtitle>
                         <Button
                             className='button'
                         >Buy</Button>
