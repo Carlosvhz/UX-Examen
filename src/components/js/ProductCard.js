@@ -5,9 +5,7 @@ CardTitle, CardSubtitle, Button } from 'reactstrap';
 import '../css/ProductCard.css';
 
 class ProductCard extends Component {
-   constructor(props){
-        super(props);
-   }
+
 
     render(){
 
