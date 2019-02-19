@@ -13,27 +13,6 @@ export default class Footer extends React.Component{
         return (
             <MDBFooter color="stylish-color-dark" className="page-footer font-small pt-4 mt-4">
               <MDBContainer fluid className="text-center text-md-left">
-                <MDBRow>
-                  <MDBCol md="6">
-                    <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-                      About
-                    </h5>
-                    <p>
-                      La página ha sido creada con propositos educactivos.
-                    </p>
-                  </MDBCol>
-                  <hr className="clearfix w-100 d-md-none" />
-                  <MDBCol md="6">
-                    <ul className="list-unstyled">
-                      <li>
-                        <a href="#!">Home</a>
-                      </li>
-                      <li>
-                        <a href="#!">About</a>
-                      </li>
-                    </ul>
-                  </MDBCol>
-                </MDBRow>
               </MDBContainer>
               <div className="text-center">
                 <ul className="list-unstyled list-inline">

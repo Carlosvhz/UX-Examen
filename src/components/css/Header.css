@@ -7,6 +7,14 @@
     height: auto;
 }
 
+.brand-search{
+    width: 30px;
+    height: auto;
+}
 .logo-text{
     font-family: monospace;
+}
+
+.header-navbar{
+    padding: 0 !important;
 }

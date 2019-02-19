@@ -1,3 +1,24 @@
+.App{
+    background: black;
+}
+
 .row{
     margin: 0 !important;
+}
+
+.col{
+    padding: 0;
+}
+/*Carousel Image Size*/
+.carousel-img{
+    height: 50vw;
+    width: auto;
+}
+
+.fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
 }

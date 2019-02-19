@@ -1,9 +1,10 @@
 .div-card{
     padding: 0 !important;
+    margin: 0 !important;
 }
 
-.card-img{
-
+.carousel-container{
+  padding: 0 !important;
 }
 /*@keyframes App-logo-spin {
     from {

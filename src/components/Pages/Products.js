@@ -18,16 +18,16 @@ class Products extends Component{
     }
     render(){
         return (
-            <div  class="container-fluid div-card">
-                {this.state.products.map(item => {
-                  return (
-                    <MDBCol container-fluid sm = "4">
-                        <ProductCard product={item}/>
-                    </MDBCol>
-                  );
-                })}
-                <Footer/>
-            </div>
+                <div  class=" div-card">
+                    {this.state.products.map(item => {
+                    return (
+                        <MDBCol container-fluid sm = "3">
+                            <ProductCard product={item}/>
+                        </MDBCol>
+                    );
+                    })}
+                    <Footer/>
+                </div>
         );
     }
 }

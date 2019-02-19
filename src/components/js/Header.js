@@ -28,7 +28,7 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div className="container-fluid"> 
+      <div className="header-navbar container-fluid"> 
         <Navbar color="white" light expand="md">
           
           <NavbarBrand href="/">
@@ -46,14 +46,18 @@ export default class Header extends React.Component {
               </NavItem>
               
               <NavItem>
-                <NavLink href="/productscar/">My Cart   </NavLink>
+                <NavLink href="/productscar/">My Cart</NavLink>
               </NavItem>
 
               <NavItem>
                 <div class="topnav">
                 <form action="/action_page.php">
                   <input type="text" placeholder="Search.." name="search"/>
-                  <button type="submit">Submit</button>
+
+                  <a className='button' type="submit">
+                    <img className="brand-search" src={require("../images/Search.png")} alt="Logo" href="#" />
+                  </a>
+
                 </form>
                 </div> 
               </NavItem>
