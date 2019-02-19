@@ -10,6 +10,8 @@ import CardBody from "../js/BodyCard.js"
 /*Carousel*/ 
 import Carousel from "../js/Carousel.js"
 
+/* ===================================== */
+import carrito from "../images/carrito.png" 
 import "../css/HomePage.css"
 
 import {
@@ -49,7 +51,7 @@ class HomePage extends Component {
                         
                         <MDBCol sm="4">
                             <CardBody title="My cart" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in egestas neque, a mollis dui. Proin ultrices erat tellus, vitae aliquet dui ultrices vitae." 
-                                src = "https://www.redbubble.com/assets/fe/sadOllied198187229d8d8a6785b1587f86182f5.gif"
+                                src = {carrito}
                             />
                         </MDBCol>
 
