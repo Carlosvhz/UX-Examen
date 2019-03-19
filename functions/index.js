@@ -25,12 +25,12 @@ app1.get('/', (req, res) =>{
     admin.database().ref().child("/products").once("value", (snap) =>{
         res.json(snap.exportVal());
     });
-
+    
 });
 
 
 const admin = require('firebase-admin');
 admin.initializeApp();
-
+npm
 exports.productImage = functions.https.onRequest(app1);
  

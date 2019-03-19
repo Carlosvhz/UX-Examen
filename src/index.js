@@ -12,7 +12,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.register();
 
-if (window.location.protocol !== "https:") {
+/*if (window.location.protocol !== "https:") {
     window.location =
       "https://" + window.location.hostname + window.location.pathname + window.location.hash;
-}
+}*/

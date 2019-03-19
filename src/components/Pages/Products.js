@@ -14,16 +14,25 @@ import{
 class Products extends Component{
     constructor(props){
         super(props);
-        this.state = require("../../AllProducts.json");
+        this.state = {products:[]};
     }
+
+    componentDidMount(){
+        fetch("https://us-central1-hardware-3d-ffc80.cloudfunctions.net/productImage/")
+        .then(Response=>Response.json())
+        .then(responseJson => this.setState({
+            products:responseJson
+        }));
+    }
+
     render(){
         return (
             <MDBRow>
                 <div  class="container-fluid div-card">
-                    {this.state.products.map(item => {
+                    { Object.keys(this.state.products).map(item => {
                     return (
                         <MDBCol container-fluid sm = "3">
-                            <ProductCard product={item}/>
+                            <ProductCard product={this.state.products[item]}/>
                         </MDBCol>
                     );
                     })}
