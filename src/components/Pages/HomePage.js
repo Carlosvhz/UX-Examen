@@ -30,16 +30,11 @@ class HomePage extends Component {
                     <Header/>
                 </div>
 
-                <div container>
-                    <MDBRow className="row">
-                        <MDBCol sm="12">
-                            <Carousel/>
-                        </MDBCol>
-                    </MDBRow>
-                </div>
-
-                <hr>
-                </hr>
+                <MDBRow>
+                    <MDBCol sm="12">
+                        <Carousel/>
+                    </MDBCol>
+                </MDBRow>
 
                 <div container>
                     <MDBRow className="row">

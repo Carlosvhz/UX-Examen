@@ -5,13 +5,15 @@ CardTitle, CardSubtitle, Button } from 'reactstrap';
 import '../css/ProductCard.css';
 
 class ProductCard extends Component {
-    
+    constructor(props){
+        super(props)
+    }
 
     render(){
 
         return (
             <div className="container div-productcard">
-                <Card> 
+                <Card > 
                     {console.log(this.props.product)}
                     <CardImg 
                     className='card-img-p' 

@@ -9,9 +9,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
  } from 'reactstrap';
-
+import {NavLink} from "react-router-dom"
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -42,24 +41,19 @@ export default class Header extends React.Component {
             <Nav className="ml-auto" navbar>
               
               <NavItem>
-                <NavLink href="/products/">Store</NavLink>
+                <NavLink className="nav-link"to="/products/">Store</NavLink>
               </NavItem>
               
               <NavItem>
-                <NavLink href="/productscar/">My Cart</NavLink>
+                <NavLink className="nav-link"to="/productscar/">My Cart</NavLink>
               </NavItem>
 
               <NavItem>
-                <div class="topnav">
-                <form action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search"/>
+                <NavLink className="nav-link"to="/search/">Search</NavLink>
+              </NavItem>
 
-                  <a className='button' type="submit">
-                    <img className="brand-search" src={require("../images/Search.png")} alt="Logo" href="#" />
-                  </a>
-
-                </form>
-                </div> 
+              <NavItem>
+                <NavLink className="nav-link"to="/signin/"><b>SignIn</b></NavLink>
               </NavItem>
 
             </Nav>

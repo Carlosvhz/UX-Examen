@@ -7,9 +7,9 @@
 .card-img-p{
     align-content: center !important;
     width: 340px;
-    height: 220px;
+    height: 260px;
 }
 
 .div-productcard{
-    background: black;
+    padding: 0% !important; 
 }

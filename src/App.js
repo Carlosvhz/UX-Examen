@@ -6,25 +6,34 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 /*Header*/
 import Header from "./components/js/Header"
 
+
 /* ===== Paginas ===== */ 
 import HomePage from "./components/Pages/HomePage.js";
 import ProductPage from "./components/Pages/Products.js";
 import ProductCartPage from "./components/Pages/ProductCart.js";
+import SignIn from "./components/js/SignIn"
+import Error404 from "./components/js/Error404"
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-        <Header/>
-          <Switch>
-            <Route path="/" component={HomePage} exact />
-            <Route path="/products" component={ProductPage} exact/>
-            <Route path="/productscar" component={ProductCartPage} exact/>
-          </Switch>
 
-        </div>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <div>
+          <Header/>
+            <Switch>
+              <Route path="/" component={HomePage} exact />
+              <Route path="/products" component={ProductPage} exact/>
+              <Route path="/productscar" component={ProductCartPage} exact/>
+              <Route path="/signin" component={SignIn} exact/>
+              <Route component={Error404}/>
+            </Switch>
+
+          </div>
+        </BrowserRouter>
+      </div>
+      
     );
   }
 }
