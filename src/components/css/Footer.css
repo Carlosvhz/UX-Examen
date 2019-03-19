@@ -3,7 +3,7 @@
     padding: 0;
 
     color: white;
-    background: #767777;
+    background: #1a1b1c;
 }
 
 .brand-logo{
@@ -12,11 +12,11 @@
 }
 
 .mdbfooter-c1{
-    background: #767777;
+    background: white;
     text-align: center;
 }
 
 .mdbfooter-c2{
-    background: #525454;
+    background: white;
     text-align: center;
 }

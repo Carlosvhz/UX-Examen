@@ -12,7 +12,7 @@ class ProductCard extends Component {
     render(){
 
         return (
-            <div className="container div-productcard">
+            <div>
                 <Card > 
                     {console.log(this.props.product)}
                     <CardImg 
