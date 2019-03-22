@@ -13,9 +13,6 @@ const Example = (props) => {
           <CardTitle>{props.title}</CardTitle>
           <CardText>{props.text}</CardText>
         </CardBody>
-        <Button className='button'>
-          Go to page
-        </Button>
       </Card>
     </div>
   );

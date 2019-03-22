@@ -13,6 +13,7 @@ import ProductPage from "./components/Pages/Products.js";
 import ProductCartPage from "./components/Pages/ProductCart.js";
 import SignIn from "./components/js/SignIn"
 import Error404 from "./components/js/Error404"
+import LogIn from "./components/js/LogIn.js"
 
 class App extends Component {
   render() {
@@ -27,7 +28,9 @@ class App extends Component {
               <Route path="/products" component={ProductPage} exact/>
               <Route path="/productscar" component={ProductCartPage} exact/>
               <Route path="/signin" component={SignIn} exact/>
+              <Route path="/login" component={LogIn} exact />
               <Route component={Error404}/>
+
             </Switch>
 
           </div>

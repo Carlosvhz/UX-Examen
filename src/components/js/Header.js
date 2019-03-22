@@ -10,6 +10,8 @@ import {
   Nav,
   NavItem,
  } from 'reactstrap';
+
+
 import {NavLink} from "react-router-dom"
 export default class Header extends React.Component {
   constructor(props) {
@@ -56,6 +58,9 @@ export default class Header extends React.Component {
                 <NavLink className="nav-link"to="/signin/"><b>SignIn</b></NavLink>
               </NavItem>
 
+              <NavItem>
+                <NavLink className="nav-link"to="/login/"><b>LogIn</b></NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
 
